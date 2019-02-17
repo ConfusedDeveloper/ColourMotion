@@ -31,7 +31,9 @@ nav a{
     width: 100%;
 }
 
-#video_section,
+#video_section{
+    
+}
 #video_section_main{
         background-color: #ffffff;
 }
