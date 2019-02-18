@@ -89,6 +89,19 @@
 </div>
         </div>
     </div>
+    
+    
+    
+    
+    
+    
+    <img src="http://placehold.it/960x150" data-animate-scroll="{&quot;x&quot;: &quot;500&quot;, 
+                    &quot;y&quot;: &quot;-200&quot;, 
+                    &quot;scaleX&quot;: &quot;0.25&quot;,
+                    &quot;scaleY&quot;: &quot;0.25&quot;, 
+                    &quot;alpha&quot;: &quot;0&quot;, 
+                    &quot;duration&quot;: &quot;1.5&quot;,
+                    &quot;rotation&quot;:&quot;45&quot;}" class="animateScroll" style="transform: translate3d(0px, 0px, 1px); visibility: inherit; opacity: 1; transform-style: flat;">
 
 
 
