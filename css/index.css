@@ -1,0 +1,55 @@
+/*font-family: 'Anton', sans-serif;
+font-family: 'Abril Fatface', cursive;
+font-family: 'Amatic SC', cursive;
+*/
+
+
+
+
+
+
+
+
+
+body{
+    background-color: #212121;
+    overflow-x: hidden;
+}
+header h1{
+    color: white;
+    text-align: center
+}
+nav{
+    background-color: #CDDC39;
+}
+nav a{
+    color: black;
+}
+.carousel-inner img{
+    height: 500px;
+    border-radius: 10%;
+    
+}
+
+.nav-link:hover{
+    border-bottom: 4px solid black;
+    color: 
+}
+
+#gallery-image {
+    height: 300px;
+    width: 100%;
+}
+#gallery-image1{
+    height: 400px;
+    width: 100%;
+}
+
+
+#video_section_main{
+        background-color: #ffffff;
+}
+#video_player
+{
+    margin-top: 20px;
+}
