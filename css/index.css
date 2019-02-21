@@ -4,19 +4,33 @@ font-family: 'Amatic SC', cursive;
 */
 
 
-
-
-
-
-
-
-
 body{
-    background-color: #212121;
+/*    background-color: #212121;*/
     overflow-x: hidden;
+    
 }
+
+.banner{
+    height: 600px;
+    background-image: url(../resources/HOME%20PAGE-2%20KING%20AND%20ANIMAL%20DANCING-1-2-3%20FINAL.....jpg);
+    background-size:cover;
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+.banner-header h2{
+    padding-top:150px;
+    padding-right: 10px;
+    color: black;
+    text-transform: uppercase;
+    font-size: 70px;
+    font-weight: bolder;
+}
+
+
 header h1{
-    color: white;
+
     text-align: center
 }
 nav{
@@ -33,7 +47,11 @@ nav a{
 
 .nav-link:hover{
     border-bottom: 4px solid black;
-    color: 
+
+}
+
+#gallery_section{
+    background-color: #212121;
 }
 
 #gallery-image {
