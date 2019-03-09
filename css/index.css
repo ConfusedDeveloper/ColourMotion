@@ -1,6 +1,7 @@
-body{
+body,html{
     overflow-x: hidden;
-    
+    height: auto;
+    width: auto;
 }
 
 .gallery{
@@ -50,7 +51,10 @@ clip-path: polygon(100% 0, 0 0, 100% 100%);
 }
 .section_1 h1,.section_1 h2{
     font-weight: bolder;
-    
+   position: relative;
+    bottom: 220px;
+    left: 60px;
+  
 }
 
 .section_2{
@@ -80,6 +84,8 @@ clip-path: polygon(100% 0, 0 0, 100% 100%);
 }
 
 @media(max-width:768px){
+    
+ 
     .part_1,.part_2{
         font-size: 22px! important;
         height:auto;
@@ -96,14 +102,18 @@ clip-path: polygon(100% 0, 0 0, 100% 100%);
          font-size: 40px! important;
     }
     .section_1_heading{
-        font-size: 45px! important;
-    
+        font-size: 31px! important;
     }
     .section_1{
         padding-top: 150px;
         height: auto;
     }
-   
+    .section_1 h1,.section_1 h2{
+        position: relative;
+        bottom: 210px;
+     left: 40px;
+      
+    }
 .gallery
 {
         height: 100px;
@@ -136,9 +146,8 @@ clip-path: polygon(100% 0, 0 0, 100% 100%);
 {
         height: 100%;
 }
-    .section_3_heading{
-        padding-left: 30%;
-    }
+
+  
 }
 
 @media(max-width:768px){ 

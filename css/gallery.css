@@ -1,21 +1,119 @@
-.section_1{
-    height: 500px;
-    background-image: url(../backdrop.jpg);
-    padding-top: 10%;
-}
-body{
-    overflow-x: hidden
+body,html{
+    overflow-x: hidden;
+    height: auto;
+    width: auto;
 }
 
+.home{
+height: 200px;
+width: 200px;
+background-color: black;
+position: relative;
+bottom: 25px;
+clip-path: polygon(0 0, 0% 100%, 100% 0);
+ transform: rotate(-40deg);
+}
+#home_tip{
+    position: relative;
+    top: 5%;
+    left: 10%;
+    font-size: 40px;
+    color: white;  
+}
+.video{
+float: right;
+height: 200px;
+width: 200px;
+background-color: black;
+position: relative;
+bottom: 29%;
+right: 1%; 
+clip-path: polygon(100% 0, 0 0, 100% 100%);
+ transform: rotate(40deg);
+}
+#video_tip{
+      position: relative;
+    top: 5%; font-size: 40px;color: white; 
+    left: 40%;
+}
+
+
+
+.section_1{
+    height: 800px;
+    width: 100%;
+    padding-top: 2%;
+    background-attachment: fixed;
+    background-image: url(../banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.section_1 h1,.section_1 h2{
+    font-weight: bolder;
+    position: relative;
+    bottom: 190px;
+    left: 50px;
+}
+
+
 @media(max-width:768px){
-    .section_1{
-        height: auto;
-    }
+    body,html{
+    overflow-x: hidden;
+    height: auto;
+    width: auto;
+}
+    
     #head1,#head2{
         font-size: 60px;
     }
     #picture_5,#picture_8,#picture_11,#picture_14,#picture_17{
         padding-top: 40px;
+        width: 100%;
+  
+    }
+        .section_1{
+        padding-top: 150px;
+        height: auto;
+        
+    }
+    .section_1 h1,.section_1 h2{
+        position: relative;
+        bottom: 230px;
+        left: 40px;
+        font-size: 31px;
+    }
+   
+.home
+{
+        height: 100px;
+        width: 100px;
+        bottom: 145px;
+}
+    
+#home_tip{
+  
+    top: 5%;
+    left: 10%;
+    font-size: 20px;
+ 
+}
+    
+.video{
+    float: right;
+    height: 100px;
+    width: 100px;
+    top: -240px;
+    right: 1%; 
+  
+}
+#video_tip
+    {
+    top: 5%; font-size: 20px;
+    left: 35%;
+}
+    .row{
+        width: 500px;
     }
     
 }
