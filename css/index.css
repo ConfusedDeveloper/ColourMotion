@@ -53,8 +53,8 @@ clip-path: polygon(100% 0, 0 0, 100% 100%);
     font-weight: bolder;
    position: relative;
     bottom: 220px;
-    left: 60px;
-  
+    left: 250px;
+  width: 800px;
 }
 
 .section_2{
@@ -111,7 +111,9 @@ clip-path: polygon(100% 0, 0 0, 100% 100%);
     .section_1 h1,.section_1 h2{
         position: relative;
         bottom: 210px;
-     left: 40px;
+        left: 50px;
+        width: 250px;
+        
       
     }
 .gallery
