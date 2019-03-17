@@ -50,11 +50,10 @@ clip-path: polygon(100% 0, 0 0, 100% 100%);
    
 }
 .section_1 h1,.section_1 h2{
-    font-weight: bolder;
+     font-family: 'Merriweather', serif;
     position: relative;
     bottom: 190px;
-
-      left: 250px;
+     left: 250px;
   width: 800px;
 }
 
@@ -80,12 +79,14 @@ clip-path: polygon(100% 0, 0 0, 100% 100%);
         
     }
     .section_1 h1,.section_1 h2{
+       font-family: 'Merriweather', serif;
         position: relative;
         bottom: 230px;
        left: 50px;
         width: 250px;
         font-size: 31px;
     }
+
    
 .home
 {
